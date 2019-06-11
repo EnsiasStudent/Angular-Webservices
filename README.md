@@ -1,30 +1,12 @@
-# AngularPwa
+# Angular-Webservices
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
 
-## Development server
+## Using the NewsAPI
+We used the NewsAPI in this project just to know how to work with API in a project and how to interact with them in a proper manner
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Requirements 
+- You need to work with [NewsAPI](https://newsapi.org) register and get an API Key.
+- Then go to **src/app/newsapi.service.ts** and make a change in ```api_key = 'Insert the API you get after registration'```
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-## Project News
-In this project we we will be using the News API with the following API_KEY = 9187282b5a594118abd892fd845a68b9
