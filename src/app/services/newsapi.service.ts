@@ -8,7 +8,7 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class NewsapiService {
-  api_key = 'acfb626be3d14844b5fcccbfdb7cb066';
+  api_key = 'a92e5f3e954045dcaccd411bdd129161';
 
   constructor(private http: HttpClient) {}
 
